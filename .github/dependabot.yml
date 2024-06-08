@@ -12,5 +12,5 @@ updates:
       - "dependencies"
     commit-message:
       prefix: "deps:"
-    milestone: "1.0"
+    milestone: 1
     open-pull-requests-limit: 10
