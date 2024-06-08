@@ -1,0 +1,23 @@
+openapi: 3.1.0
+info:
+  title: realworld-api
+  description: Implementing the RealWorld API in Kotlin
+  version: 1.0.0
+paths:
+  /sample:
+    get:
+      summary: Returns a sample message
+      operationId: getSampleMessage
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: string
+        default:
+          description: Unexpected error
+          content:
+            application/json:
+              schema:
+                type: string
