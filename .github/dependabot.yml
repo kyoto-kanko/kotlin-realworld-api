@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    reviewers:
+      - "kyoto-kanko"
+    assignees:
+      - "kyoto-kanko"
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "deps:"
+    milestone: "1.0"
+    open-pull-requests-limit: 10
